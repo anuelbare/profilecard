@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="profile-card">
+        <!-- Profile Picture -->
+        <img src="photo.jpg" alt="width=250px height=250px" class="profilepicture" data-testid="profilePicture">
+
+        <!-- Full Name -->
+        <h2 data-testid="fullName">Omo-Bare Emmanuel Omogbai</h2>
+        
+        <!-- Job Title -->
+        <h3 data-testid="jobTitle">Frontend Developer</h3>
+        
+        <!-- Short Bio -->
+        <p data-testid="shortBio">I am an aspiring frontend Developer who has been fascinated by the way websites work and would love to increase my knowledge base while putting my previously gained skills to the test. Passionate about building user-friendly websites.</p>
+        
+        <!-- Current Location -->
+        <p data-testid="currentLocation">Lagos, Nigeria</p>
+        
+        <!-- Email Address -->
+        <p data-testid="emailAddress"><em>henry12cage@gmail.com</em></p>
+        
+        <!-- Social Links -->
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://www.x.com/emmybar3_" target="_blank">Twitter</a> -
+            <a href="https://www.linkedin.com/in/anuel-bare" target="_blank">LinkedIn</a> -
+            <a href="https://github.com/HenryCage" target="_blank">Github</a> 
+        </div>
+        
+        <!-- Current Time -->
+        <em>The Current Time is: <span data-testid="currentTimeUTC" id="utc-time"></span></em>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
